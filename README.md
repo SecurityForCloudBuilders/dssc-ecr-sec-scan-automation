@@ -18,10 +18,9 @@ DSSC_URL: <DSSC_URL>
 DSSC_USER: <DSSC_USER_FOR_ECR_AUTOMATION>
 ```
 
-We strongly recommend you to use AWS KMS to encrypt all environment variables stored in cleartext. remember to use least privilege access for AWS access and secret keys. for more details on how to security AWS lambda secrets. visit `https://docs.aws.amazon.com/lambda/latest/dg/env_variables.html`
+We strongly recommend you to use AWS KMS to encrypt all environment variables stored in cleartext. Remember to use least privilege access for AWS access and secret keys. For more details on how to security AWS lambda secrets. visit `https://docs.aws.amazon.com/lambda/latest/dg/env_variables.html`
 
-We also recommend you to use seprate user in DSSC for this automation. for greater efficiency we encourage you to use our slack notification app for scan notificaiton if any vulnerabilities detected by Trend Micro deep security.
-
+We also recommend you to use seprate user in DSSC for this automation. For greater efficiency we encourage you to use our slack notification app for scan notificaiton if any vulnerabilities detected by Trend Micro deep security.
 
 
 Made with ❤️ by Tejas sheth at Trend Micro. Available on the AWS Serverless Application Repository
