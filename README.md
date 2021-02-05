@@ -4,9 +4,9 @@ O aplicativo está disponível no AWS Serverless Application Repository.
 
 # Sobre a ferramenta de Scan de Imagens
 
-O Smart Check realiza varreduras pré-tempo de execução de imagens Docker ™, permitindo que você corrija os problemas antes que cheguem ao ambiente de orquestração (por exemplo, Kubernetes®).
+O Smart Check realiza varreduras pré-tempo de execução de imagens Docker, permitindo que você corrija os problemas antes que cheguem ao ambiente de orquestração (por exemplo, Kubernetes).
 
-O Deep Security Smart Check oferece a capacidade de: 
+O Smart Check oferece a capacidade de: 
   * Detectar vulnerabilidades no nível do sistema operacional e no nível do aplicativo
   * Detectar malware, detectar segredos e chaves incorporadas em seus aplicativos
   * Realizar consultas de varredura personalizadas para encontrar arquivos suspeitos ou indesejados, verificar o conteúdo da imagem em uma lista de verificação de conformidade que inclui itens do PCI -DSS, HIPAA e NIST 800-190.
