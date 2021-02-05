@@ -1,6 +1,6 @@
 # Utilizando um aplicativo Serverless para automatizar Scan de Imagens no ECR
 
-O aplicativo está disponível no AWS Serverless Application Repository
+O aplicativo está disponível no AWS Serverless Application Repository.
 
 # Sobre a ferramenta de Scan de Imagens
 
@@ -13,7 +13,7 @@ O Deep Security Smart Check oferece a capacidade de:
   
 Mais informações em https://github.com/deep-security/smartcheck-helm
 
-Muitas equipes de devops trabalham em silos e muitas vezes essas equipes enviam imagens para AWS ECR sem pipeline de CI/CD. Isso leva a várias imagens não digitalizadas e cria uma lacuna de feedback entre a segurança e os desenvolvedores. Este aplicativo sem servidor ajudará o cliente a criar uma varredura baseada em eventos ECR da AWS.
+Muitas equipes de devops trabalham em silos e essas equipes enviam imagens para AWS ECR sem pipeline de CI/CD. Isso leva a várias imagens não digitalizadas e cria uma lacuna de feedback entre a segurança e os desenvolvedores. Este aplicativo sem servidor ajudará o cliente a criar uma varredura baseada em eventos ECR da AWS.
 
 Estamos usando o monitoramento de eventos AWS ECR Push usando eventos cloudwatch e o mesmo evento cloudwatch aciona a função lambda para iniciar a varredura. Essa automação de segurança fornece capacidade de reduzir a sobrecarga de varredura programada.
 
